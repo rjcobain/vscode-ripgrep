@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/roblourens/vscode-ripgrep"
+    "url": "https://github.com/rjcobain/vscode-ripgrep"
   },
   "scripts": {
     "prepublish": "in-publish && echo 'You need to use \"publish-packed\" to publish this package' && false || not-in-publish",
