@@ -23,7 +23,7 @@ existsP(binPath).then(binExists => {
                 console.log('Renaming _node_modules => node_modules');
                 return renameP(_node_modules_path, node_modules_path);
             }
-            else throw new Error('Missing ./_node_modules...');
+            else throw new Error('Missing ./_node_modules... ' + node_modules_path);
         });
     }
 }).then(() => {
