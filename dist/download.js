@@ -16,7 +16,7 @@ const { binPath } = require('./common');
 function download(opts, assetName, downloadDest) {
     return new Promise((resolve, reject) => {
         const github = new GitHub({
-            user: 'roblourens',
+            user: 'rjcobain',
             repo: 'ripgrep',
             token: opts.token
         });
